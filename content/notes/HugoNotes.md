@@ -6,8 +6,6 @@ keywords:
 - key
 - words
 tags:
-- one
-- two
 title: Hugo Notes
 topics:
 - topic 1

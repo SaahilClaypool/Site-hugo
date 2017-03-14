@@ -6,8 +6,6 @@ keywords:
 - key
 - words
 tags:
-- one
-- two
 title: Go Notes
 topics:
 - topic 1
