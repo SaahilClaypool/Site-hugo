@@ -19,8 +19,8 @@ metaDataFormat = "yaml"
 paginate = 10
 paginatePath = "page"
 
-# Enable Disqus integration
-disqusShortname = "your_disqus_shortname"
+## Enable Disqus integration
+disqusShortname = "saahilclaypool"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
