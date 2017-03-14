@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://www.example.com"
+baseurl = "https://saahilclaypool.github.io/"
 
 # Site title
 title = "Saahil Claypool"
@@ -14,8 +14,6 @@ languageCode = "en-EN"
 # "yaml", "toml", "json"
 metaDataFormat = "yaml"
 
-# Theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
 
 # Pagination
 paginate = 10
