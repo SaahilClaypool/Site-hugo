@@ -48,3 +48,15 @@ type: note
 
 #### Deploying to Github
 
+Using this link: http://gohugo.io/tutorials/github-pages-blog/
+
+``` sh
+$ ./deploy.sh
+```
+
+**NOTE** To get a theme, do git submodule add <theme.git> 
+**NOTE** Must make a ssh key for the computer that is pushing to github. 
+
+
+
+
