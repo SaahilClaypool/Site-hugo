@@ -72,9 +72,9 @@ $ git clone <url>  --recursive
 $ git submodule update themes (or other submodule directory)
 ```
 
+Must checkout the master branch for the ./public branch as well
 
 **NOTE** Must make a ssh key for the computer that is pushing to github. 
 
-
-
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
