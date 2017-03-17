@@ -52,7 +52,27 @@ Using this link: http://gohugo.io/tutorials/github-pages-blog/
 $ ./deploy.sh
 ```
 
-**NOTE** To get a theme, do git submodule add <theme.git> 
+##### Adding Theme
+To get a theme, do git submodule add <theme.git> 
+
+``` sh 
+$ cd themes
+$ git submodule add <Theme-URL>
+```
+
+##### Cloning 
+To clone, submodules must also be cloned. To do this, use the following command
+
+``` sh 
+$ git clone <url>  --recursive
+```
+*Or* after cloning normally
+
+``` sh 
+$ git submodule update themes (or other submodule directory)
+```
+
+
 **NOTE** Must make a ssh key for the computer that is pushing to github. 
 
 
