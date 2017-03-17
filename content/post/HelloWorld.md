@@ -15,7 +15,5 @@ type: post
 
 This site is created to document my exploration of different computer science topics. I hope to include both content from my school ([WPI](https://www.wpi.edu/)) and my own personal projects. 
 
-# About Me
-I, Saahil Claypool, am a computer science major at WPI. 
 
 
