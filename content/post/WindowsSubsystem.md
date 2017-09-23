@@ -5,6 +5,7 @@ title: Windows Subsystem
 type: post
 description: Linux on Windows!
 tags: 
+- programming
 - WSL
 - Linux
 ---

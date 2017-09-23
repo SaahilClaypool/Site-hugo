@@ -20,7 +20,7 @@ paginate = 10
 paginatePath = "page"
 
 ## Enable Disqus integration
-disqusShortname = "saahilclaypool"
+# disqusShortname = "saahilclaypool"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -40,7 +40,7 @@ disqusShortname = "saahilclaypool"
 [params]
     # You can use markdown here.
     brand = "ClayCode"
-    topline = "A Programming Blog"
+    topline = "A Life & Programming Blog"
     footline = "Saahil Claypool"
 
     # Sidebar position
@@ -61,7 +61,7 @@ disqusShortname = "saahilclaypool"
     # Sidebar social links.
     github = "saahilclaypool" # Your Github profile ID
     # bitbucket = "" # Your Bitbucket profile ID
-    # linkedin = "" # Your LinkedIn profile ID (from public URL)
+    linkedin = "smclaypool" # Your LinkedIn profile ID (from public URL)
     # googleplus = "" # Your Google+ profile ID
     # facebook = "" # Your Facebook profile ID
     # twitter = "" # Your Twitter profile ID
