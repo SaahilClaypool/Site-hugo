@@ -15,7 +15,14 @@ type: post
 
 <img src="/img/HeadShot.jpg" alt="Me" style="width: 200px;"/>
 
-This site is created to document my exploration of different computer science topics. I hope document some of the cooler projects I do at my school ([WPI](https://www.wpi.edu/)), my personal projects, and some of the trips  I go on (I love to travel). 
+I am a computer science major currently studying at Worcester Polytechnic Institute (WPI) class of 2019. 
+I live in Acton, Massachusetts and graduated from the Acton-Boxborough Regional High School in 2015. 
+
+In my free time I play a lot of soccer; I played Varsity soccer in High School and was the Captain my senior year. I played one year of college. I also play a number of video games and card games including League of Legends, FIFA, and the card game Nertz (I would highly recommend learning Nertz).
+
+
+I am interested in all areas of computer science, from programming language theory to network protocols. I do have a specific interest in bioinformatics and data science. 
+
 
 
 
