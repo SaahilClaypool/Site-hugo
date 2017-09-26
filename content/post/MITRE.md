@@ -2,6 +2,9 @@
 title: "MITRE"
 date: 2017-09-23T19:23:43+02:00
 draft: false
+tags: 
+- work
+- 2017
 ---
 
 # MITRE software Internship 2017

@@ -23,7 +23,7 @@ paginatePath = "page"
 # disqusShortname = "saahilclaypool"
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+    post = "/:year/:month/:slug/"
     code = "/:slug/"
 
 [taxonomies]
@@ -41,7 +41,7 @@ paginatePath = "page"
     # You can use markdown here.
     brand = "ClayCode"
     topline = "A Life & Programming Blog"
-    footline = "Saahil Claypool"
+    footline = ""
 
     # Sidebar position
     # false, true, "left", "right"

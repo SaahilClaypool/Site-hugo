@@ -8,8 +8,6 @@ keywords:
 tags:
 - misc
 title: About
-topics:
-- topic 1
 type: post
 ---
 

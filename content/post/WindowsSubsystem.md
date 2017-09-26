@@ -6,8 +6,7 @@ type: post
 description: Linux on Windows!
 tags: 
 - programming
-- WSL
-- Linux
+- 2017
 ---
 
 *jump to [configuration](#configuration)*
