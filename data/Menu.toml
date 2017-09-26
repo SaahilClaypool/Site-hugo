@@ -1,3 +1,7 @@
+[experience]
+    Name = "Experience"
+    Title = "Experience"
+    URL = "/experience"
 [posts]
     Name = "Posts"
     Title = "Show list of posts"
