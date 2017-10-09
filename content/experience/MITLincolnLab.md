@@ -1,13 +1,11 @@
 ---
 date: 2017-09-26T08:08:14+02:00
 draft: false
-title: MIT Lincoln Laboratory
+title: MIT Lincoln Laboratory - Software Internship 2016
 tags: 
 - work
 - 2016
 ---
-
-# MIT Lincoln Laboratory software Internship 2016
 
 I worked [MIT Lincoln Laboratory](https://ll.mit.edu/about/about.html) the summer of 2016 in a group working for the FAA. Here I created a visualization tool to monitor a distributed system of computers as a graph network. This tool helped visualize when a node in the graph failed and what effect this had on the rest of the system. 
 

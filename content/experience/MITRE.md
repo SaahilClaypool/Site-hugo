@@ -1,5 +1,5 @@
 ---
-title: "MITRE"
+title: "MITRE - Software Internship 2017"
 date: 2017-09-23T19:23:43+02:00
 draft: false
 tags: 
@@ -7,7 +7,6 @@ tags:
 - 2017
 ---
 
-# MITRE software Internship 2017
 In the summer of 2017 I worked for MITRE, a government research and development summer. I worked on a project called SIMULARITY which worked on creating more realistic cybersecurity training sceneries. The basic idea is this: in the real world, the majority of the people using a computer network are *not* interested in hacking or defending a system. Thus, cybersecurity test scenarios should reflect this. But, in most cases, there are just two teams, a red team attacking a system and blue team defending a system. I helped this effort by exposing the **Windows Automation API** to a server so that it could be controlled by an AI bot. This would then allow the bot to control the human in a way similar to a human. 
 
 To solve this, the SIMULARITY project is attempting to make a 'gray team'. This team will be composed of AI controlled bots that will simulate a normal user on a computer. The goal is to create *noise* in the system. This way the blue team will have to differentiate between arbitrary users and actual red team attackers, thus making a more realistic environment. 
