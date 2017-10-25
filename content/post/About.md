@@ -13,6 +13,8 @@ type: post
 
 <img src="/img/HeadShot.jpg" alt="Me" style="width: 200px;"/>
 
+*Note: slightly more information can be found on my old website at [claypools.org](http://www.claypools.org)*
+
 I am a computer science major currently studying at Worcester Polytechnic Institute (WPI) class of 2019. 
 I live in Acton, Massachusetts and graduated from the Acton-Boxborough Regional High School in 2015. 
 
