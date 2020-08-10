@@ -1,75 +1,25 @@
-# hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://saahilclaypool.github.io/"
+baseURL = "https://saahilclaypool.github.io/"
+languageCode = "en-us"
+publishDir = "docs"
+canonifyurls = true
 
-# Site title
-title = "Saahil Claypool"
+# Enable for syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
-# Copyright
-copyright = "(c) 2017 Saahil Claypool."
+[markup.goldmark.renderer]
+      unsafe = true
 
-# Language
-languageCode = "en-EN"
-
-# Metadata format
-# "yaml", "toml", "json"
-metaDataFormat = "yaml"
-
-
-# Pagination
-paginate = 10
-paginatePath = "page"
-
-## Enable Disqus integration
-# disqusShortname = "saahilclaypool"
-
-[permalinks]
-    post = "/:year/:month/:slug/"
-    code = "/:slug/"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
-
-[author]
-    name = "Saahil Claypool"
-    email = "saahil@claypools.com"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
 [params]
-    # You can use markdown here.
-    brand = "ClayCode"
-    topline = "A Life & Programming Blog"
-    footline = ""
+    description = "A collection of bits of knowledge"
+    copyright= "Copyright © 2020 Saahil Claypool"
+    Title = "Notes on things"
 
-    # Sidebar position
-    # false, true, "left", "right"
-    sidebar = "left"
+[menu]
 
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Home".
-    home = "Home"
-
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "default"
-
-    # Google Analytics.
-    # googleAnalytics = "Your Google Analytics tracking code"
-
-    # Sidebar social links.
-    github = "saahilclaypool" # Your Github profile ID
-    # bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "smclaypool" # Your LinkedIn profile ID (from public URL)
-    # googleplus = "" # Your Google+ profile ID
-    # facebook = "" # Your Facebook profile ID
-    # twitter = "" # Your Twitter profile ID
-    # youtube = ""  # Your Youtube channel ID
-    # flattr = ""  # populate with your flattr uid
-    # flickr = "" # Your Flickr profile ID
-    # vimeo = "" # Your Vimeo profile ID
-
-    # Sidebar RSS link: will only show up if there is a RSS feed
-    # associated with the current page
-    rss = true
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = ""
+    url = "/this_site"
+    weight = -140

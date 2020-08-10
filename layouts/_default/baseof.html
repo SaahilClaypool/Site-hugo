@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+     content to avoid any CSS collisions with our real content. -->
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">{{ .Site.Params.Title }}</a>
+          <small>a continual work in progress</small>
+        </h3>
+      </div>
+    </div>
+    {{ partial "sidebar.html" . }}
+    <main class="content container">
+      {{ block "main" . -}}{{- end }}
+    </main>
+</body>
+
+{{ partial "foot.html" . }}
+
+</html>

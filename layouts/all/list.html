@@ -1,0 +1,29 @@
+{{ define "main" -}}
+{{.Content}}
+<div class="posts">
+  <!-- {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }} -->
+  {{ range .Site.RegularPages.ByDate.Reverse }}
+  <article>
+    <!-- this <div> includes the title summary -->
+    <div>
+      <hr/>
+      <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <small class="tag">
+          <a class="tag" href="/{{.Type}}">
+            {{.Type}}
+          </a>
+        </small>
+      </h2>
+      {{ .Summary }}
+    </div>
+    <!-- {{ if .Truncated }} -->
+    <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+    <div>
+      <a href="{{ .RelPermalink }}">Read More…</a>
+    </div>
+    <!-- {{ end }} -->
+  <!-- </article> -->
+{{ end }}
+</div>
+{{- end }}

@@ -5,3 +5,7 @@
 	path = public
 	url = git@github.com:saahilclaypool/saahilclaypool.github.io.git
 	branch = master
+[submodule "docs"]
+	path = docs
+	url = git@github.com:SaahilClaypool/SaahilClaypool.github.io.git
+	branch = master
