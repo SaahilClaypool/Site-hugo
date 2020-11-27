@@ -11,7 +11,7 @@ Both of these would be easy enough to do in SQL, but I find it more convenient t
 
 Recently, I've tried to approximate this workflow using [dotnet interactive](https://github.com/dotnet/interactive), and I'll describe that setup below.
 The finished result can be found
- [here](https://github.com/SaahilClaypool/BookyAPI/blob/221c8fc847ca2ba28b4347f6a094b52fc9a59b6d/Scratch.ipynb)(github).
+ [here](https://github.com/SaahilClaypool/BookyAPI/blob/f4dc0929d51a29de18b7189d45b5d4e18f52ab4e/Scratch.ipynb)(github).
 
 ![Notebook example](/BookyInteractive.png)
 
