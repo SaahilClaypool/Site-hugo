@@ -7,13 +7,13 @@ The tool I miss most when not using ruby-on-rails (which I use at my day-job) is
 My main use for the console is to write queries in the same ORM language as the rest of my application.
 For example, I might drop into the rails console to see the raw output of a query like `Course.where('start_date < DateTime.now - 1.year')`.
 Or, if I need to create some fake data, I could drop into another console and run something like `Course.last.update(start_date: DateTime.now - 2.year)`.
-Both of these would be easy enough to do in SQL, but by using the same language as the application ORM lets me use all of the helper functions and snippets that might be present in the application.
+Both of these would be easy enough to do in SQL, but I find it more convenient to use the application's ORM and have access to any helper functions that I've already written.
 
 Recently, I've tried to approximate this workflow using [dotnet interactive](https://github.com/dotnet/interactive), and I'll describe that setup below.
 The finished result can be found
  [here](https://github.com/SaahilClaypool/BookyAPI/blob/221c8fc847ca2ba28b4347f6a094b52fc9a59b6d/Scratch.ipynb)(github).
 
-![Interactive Example](/BookyInteractive.png)
+![Notebook example](/BookyInteractive.png)
 
 <!--more-->
 
